@@ -1,0 +1,116 @@
+Respostas da Lista 1:
+
+1) 
+package controle;
+
+import java.util.Scanner;
+
+public class Programa {
+
+  public static void main(String[] args) {
+		
+	Scanner input = new Scanner(System.in);
+	System.out.println("Digite a temperatura em Farenheit: ");
+	double fa = input.nextDouble();
+	double ce = 5*(fa-32)/9;
+	System.out.println("A temperatura em Celsius é: " + ce);
+  }
+}
+
+2)
+
+package controle;
+
+import java.util.Scanner;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		System.out.println("Digite o primeiro número: ");
+		double n1 = input.nextDouble();
+		System.out.println("Digite o segundo número: ");
+		double n2 = input.nextDouble();
+		
+		System.out.println("A soma é: " + (n1 + n2));
+		System.out.println("A diferença é: " + (n1 - n2));
+		System.out.println("O módulo é: " + (n1%n2));
+		System.out.println("A divisão é: " + (n1/n2));
+		System.out.println("O produto é: " + (n1*n2));
+		
+	}
+
+}
+
+
+3)
+
+package controle;
+
+import java.util.Scanner;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		
+         Scanner input = new Scanner(System.in);
+         System.out.println("Digite a base: ");
+         double base = input.nextDouble();
+         System.out.println("Digite a altura: ");
+         double altura = input.nextDouble();
+         double area = (base*altura)/2;
+         System.out.println("A área é: " + area);    
+		
+	}
+
+}
+
+
+4)
+
+package controle;
+
+import java.util.Scanner;
+
+public class Programa {
+
+
+	public static void main(String[] args) {
+		
+	  Scanner input = new Scanner(System.in);
+	  System.out.println("Digite a velocidade em km/h: ");
+	  double vel = input.nextDouble();
+	  System.out.println("Digite a distância em km: ");
+	  double dist = input.nextDouble();
+	  double tempo = (dist/vel) * 60;
+	  System.out.println("O tempo  é " + tempo + " minutos");
+	}
+}
+
+
+5) 
+
+package controle;
+
+import java.util.Scanner;
+
+public class Programa {
+
+	
+  public static void main(String[] args) {
+		
+	Scanner input = new Scanner(System.in);
+	System.out.println("Quantos hamburgueres deseja: ");
+	int hamb = input.nextInt();
+	System.out.println("Quantas batatas-fritas deseja: ");
+	int batata = input.nextInt();
+	System.out.println("Quantos refrigerantes deseja: ");
+	int refri = input.nextInt();
+	double conta = (hamb*2.5 + batata*1.5 + refri*0.6)*1.1;
+	System.out.println("A conta final deu: " + conta);
+		
+	}
+
+}
+
